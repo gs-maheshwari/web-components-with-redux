@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+  <style>
+    html { 
+      --color: #29eb90 ;
+    }
+  </style>
+  <script type="module" src="./main-component.js"></script>
+  <script type="module" src="./introduction-component.js"></script>
+  <script>
+    window.process = {
+      env: {
+        NODE_ENV: 'production'
+      }
+    };
+  </script>
+</head>
+<body>
+  <main-component></main-component>
+</body>

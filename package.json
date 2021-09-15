@@ -1,0 +1,22 @@
+{
+  "name": "assigment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "simple-greeting.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "web-dev-server --node-resolve --open ./ --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lit": "^2.0.0-rc.2",
+    "lit-html": "^1.4.1",
+    "redux": "^4.1.1"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.1.17",
+    "@web/dev-server-esbuild": "^0.2.12",
+    "babel-cli": "^6.26.0"
+  }
+}
