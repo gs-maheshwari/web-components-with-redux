@@ -8,8 +8,8 @@ $ npm run start
 
 # Chapters
 
-- Creating component with Lit
-- Creating a property called "name" in the <main-component> and give it a default value
+- Create component with Lit
+- Create a property called "name" in the <main-component> and give it a default value
   - Pass this name to the <introduction-component>
   - In the <introduction-component> displays "Hello ${name}"
 - If the dom is ready, start a timer in the <introduction-component> and display time spent on the website
