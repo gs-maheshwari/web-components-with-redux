@@ -1,19 +1,15 @@
 # Launch the project
 
-Go to the assigment folder and follow these commands:
-
 ```bash
 $ nvm use
 $ npm i
 $ npm run start
 ```
 
-# Assigment
+# Chapters
 
-- We have set up a <main-component> up and running for you
-- Create a second component called <introduction-component>
-- The <main-component> currently says "Ready!"
-  - Create a property called "name" in the <main-component> and give your name as a default value
+- Creating component with Lit
+- Creating a property called "name" in the <main-component> and give it a default value
   - Pass this name to the <introduction-component>
   - In the <introduction-component> displays "Hello ${name}"
 - If the dom is ready, start a timer in the <introduction-component> and display time spent on the website
